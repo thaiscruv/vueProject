@@ -1,6 +1,7 @@
 <template>
   <div class="teste-if">
-    <h1>Teste</h1>
+    <h1 v-if="podeVer">Teste 1</h1>
+    <h1 v-else>Teste 2</h1>
   </div>
 </template>
 
@@ -9,7 +10,7 @@ export default {
   name: "TesteIf",
   data() {
     return {
-      podeVer: true,
+      podeVer: false,
     };
   },
 };
