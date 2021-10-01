@@ -1,18 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <TesteIf />
-    <p>Teste</p>
+    <TesteFor />
   </div>
 </template>
 
 <script>
-import TesteIf from "./components/TesteIf.vue";
+import TesteFor from "./components/TesteFor.vue";
 
 export default {
   name: "App",
   components: {
-    TesteIf,
+    TesteFor,
   },
 };
 </script>
